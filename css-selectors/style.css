@@ -1,0 +1,30 @@
+.box {
+  background-color: green;
+}
+
+.box:first-of-type {
+  background-color: red;
+}
+
+.box:last-of-type {
+  background-color: blue;
+}
+
+a:hover {
+  cursor: grabbing;
+  font-size: 200%;
+}
+
+li:nth-child(2) > a:active {
+  color: chartreuse;
+}
+
+a:active {
+  color: orange;
+  text-decoration: none;
+}
+
+main::before {
+  background-color: blueviolet;
+  content: "Box Title";
+}

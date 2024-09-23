@@ -1,0 +1,51 @@
+/* --- Body --- */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Header --- */
+.header {
+  background-color: rgb(50, 141, 28);
+  height: 20px;
+  font-size: 18px;
+}
+
+/* --- Main --- */
+.main {
+  background: rgb(83, 194, 49);
+}
+
+/* --- Footer --- */
+footer {
+  font-weight: bold;
+  padding: 20px 0 0 20px; /* up right bottom left */
+  background-color: brown;
+  color: white;
+}
+
+/* --- Img --- */
+#shrek {
+  display: flex;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Text --- */
+.title-text {
+  text-decoration: underline;
+  color: orangered;
+  padding-left: 20px;
+  display: inline;
+}
+
+.list-text {
+  color: brown;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+
+/* hover class and child, selectors */ 

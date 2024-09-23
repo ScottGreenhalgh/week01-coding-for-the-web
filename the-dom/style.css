@@ -1,0 +1,12 @@
+body {
+  background-color: aquamarine;
+}
+
+.main-image {
+  border-radius: 50px;
+  height: 500px;
+}
+
+.main-list {
+  color: crimson;
+}
